@@ -111,8 +111,8 @@
         height="250"
         style="width: 100%"
       >
-        <el-table-column prop="date" label="日期" width="120" />
-        <el-table-column prop="name" label="名字" width="120" />
+        <el-table-column prop="date" label="日期" width="110" />
+        <el-table-column prop="name" label="名字" width="110" />
         <el-table-column prop="commits" label="评论" />
       </el-table>
     </el-tab-pane>
