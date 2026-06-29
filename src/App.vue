@@ -10,7 +10,7 @@
       <img
         style="width: 50px"
         src="https://hi.mcenahle.page/logo.png"
-        alt="Element logo"
+        alt="网站徽标"
       />
       <p style="font-size: 16px">&nbsp;&nbsp;&nbsp;sponsor</p>
     </el-menu-item>
@@ -57,7 +57,14 @@
     </el-sub-menu>
   </el-menu>
 
-  <p>请选择一种你喜欢的 <Icon icon="mdi:payment" width="16" /> 赞助方式：</p>
+  <p>
+    请选择一种你喜欢的
+    <Icon icon="mdi:payment" width="16" /> 赞助方式。如果必要，也可
+    <el-button type="primary" tag="a" href="mailto:hi@mcenahle.page">
+      <Icon icon="mdi:email-outline" width="16" />
+      <span style="margin-left: 4px"> 给我发电子邮件</span> </el-button
+    >。
+  </p>
 
   <el-alert
     title="提示"
@@ -104,22 +111,10 @@
         height="250"
         style="width: 100%"
       >
-        <el-table-column prop="date" label="日期" width="180" />
-        <el-table-column prop="name" label="姓名" width="180" />
+        <el-table-column prop="date" label="日期" width="120" />
+        <el-table-column prop="name" label="名字" width="120" />
         <el-table-column prop="commits" label="评论" />
       </el-table>
-    </el-tab-pane>
-    <el-tab-pane>
-      <template #label>
-        <span class="custom-tabs-label">
-          <Icon icon="mdi:connect-without-contact" width="16" />
-          <span> 联系我</span>
-        </span>
-      </template>
-      <el-button type="primary" tag="a" href="mailto:hi@mcenahle.page">
-        <Icon icon="mdi:email-outline" width="16" />
-        <span style="margin-left: 4px"> 给我发电子邮件 </span>
-      </el-button>
     </el-tab-pane>
   </el-tabs>
 </template>
