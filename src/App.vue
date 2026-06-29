@@ -60,9 +60,8 @@
   <p>
     请选择一种你喜欢的
     <Icon icon="mdi:payment" width="16" /> 赞助方式。如果必要，也可
-    <el-button type="primary" tag="a" href="mailto:hi@mcenahle.page">
-      <Icon icon="mdi:email-outline" width="16" />
-      <span style="margin-left: 4px"> 给我发电子邮件</span> </el-button
+    <el-link href="mailto:hi@mcenahle.page" target="_blank" underline="always"
+      ><Icon icon="mdi:email-outline" width="16" />&nbsp;给我发电子邮件</el-link
     >。
   </p>
 
